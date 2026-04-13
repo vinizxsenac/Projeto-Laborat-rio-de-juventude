@@ -85,7 +85,16 @@ const Cards = {
           `
           : c.imagem
             ? `<img src="${c.imagem}" class="card-img" />`
-            : `<div class="card-thumb-placeholder">${c.icone || '📰'}</div>`
+            : `<div class="card-thumb">
+
+  ${
+    c.iconeImg
+      ? `<img src="${c.iconeImg}" class="card-icon-img">`
+      : `<div class="card-thumb-placeholder">${c.icone || '📰'}</div>`
+  }
+
+  <span class="card-category-badge">${c.categoria}</span>
+</div>`
       }
     
       <span class="card-category-badge">${c.categoria}</span>

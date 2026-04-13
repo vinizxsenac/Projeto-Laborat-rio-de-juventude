@@ -83,12 +83,10 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   gap: 10px;
 }
 
-.logo-icon {
-  width: 40px; height: 40px;
-  background: var(--laranja);
-  border-radius: 10px;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 20px;
+.logo-img {
+  height: 60px;
+  width: auto;
+  display: block;
 }
 
 .logo-text {
@@ -448,7 +446,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   overflow: hidden;
   position: relative;
 }
-
+.cat-rosa .card-thumb {
+  background: linear-gradient(180deg, #fbcfe8, #f9a8d4);
+}
 .card-thumb img {
   width: 100%; height: 100%;
   object-fit: cover;
@@ -522,6 +522,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-radius: 50px;
   transition: var(--transition);
 }
+
 
 .card-btn:hover { background: var(--laranja-dark); }
 

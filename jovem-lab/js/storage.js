@@ -112,8 +112,8 @@ const DB = {
         icone: '📄',
         cor: 'cat-azul',
         destaque: true,
-        dataPublicacao: '',
-        tempoLeitura: '5 min',
+        dataPublicacao: '2026-04-13',
+        tempoLeitura: '7 min',
         conteudo: `
           <p>"Mentir no currículo pode parecer uma saída rápida, mas os riscos são altos. Entenda por que a honestidade é sempre a melhor estratégia e como valorizar suas habilidades sem precisar inventar experiências."</p>
 
@@ -134,93 +134,33 @@ const DB = {
       },
       {
         id: 2,
-        titulo: 'Currículo para primeiro emprego: guia completo',
-        descricao: 'Aprenda a criar um currículo atrativo mesmo sem experiência profissional anterior.',
-        categoria: 'Vagas',
+        titulo: 'Dicas de Ética e conduta no mundo do trabalho',
+        descricao: "Entenda a importância da ética e da boa conduta no ambiente de trabalho. Saiba como atitudes profissionais, respeito e responsabilidade podem fortalecer sua imagem e abrir portas na sua carreira.",
+        categoria: 'Dicas',
         icone: '📄',
         cor: 'cat-azul',
         destaque: false,
-        dataPublicacao: '2024-12-05',
-        tempoLeitura: '7 min',
-        videoId: 'Yw3T3xh6r8E',
+        dataPublicacao: '2026-04-13',
+        tempoLeitura: '3 min',
         conteudo: `
-          <p>Criar um currículo para o primeiro emprego é um desafio comum: como mostrar seu valor se você não tem experiência profissional formal? A resposta está em valorizar tudo o que você já fez — e apresentar isso de forma estratégica.</p>
-
-          <h2>Estrutura recomendada</h2>
-          <ul>
-            <li><strong>Dados pessoais:</strong> nome, cidade, telefone, e-mail profissional</li>
-            <li><strong>Objetivo profissional:</strong> uma frase clara sobre o que você busca</li>
-            <li><strong>Formação acadêmica</strong></li>
-            <li><strong>Cursos e certificados</strong></li>
-            <li><strong>Habilidades</strong></li>
-            <li><strong>Experiências voluntárias / projetos pessoais</strong></li>
-            <li><strong>Idiomas</strong></li>
-          </ul>
-
-          <div class="destaque-box"><p>✅ Mantenha o currículo em <strong>uma página</strong> para vagas de primeiro emprego. Objetividade é sua melhor amiga.</p></div>
-
-          <h2>E se eu não tiver experiência?</h2>
-          <p>Coloque tudo que demonstre responsabilidade e aprendizado: trabalhos voluntários, participação em projetos escolares, cursos online, trabalhos de bairro. Recrutadores de primeiro emprego buscam atitude, não histórico.</p>
-
-          <h2>Erros que custam entrevistas</h2>
-          <ul>
-            <li>Foto inadequada ou sem foto</li>
-            <li>Email inapropriado (ex: gatinhofofinhoo@...)</li>
-            <li>Erros de ortografia</li>
-            <li>Currículo com mais de 2 páginas</li>
-            <li>Informações falsas ou exageradas</li>
-          </ul>
+          <img src="assets/images/SlideArnoldeAnaclara1.png" alt="Dicas1" style="width:100%; border-radius:10px; margin:20px 0;">
+          <img src="assets/images/SlideArnoldeAnaclara2.png" alt="Dicas2" style="width:100%; border-radius:10px; margin:20px 0;">
         `
       },
 
       // ---- DICAS PARA ENTREVISTAS ---------------------------
       {
         id: 3,
-        titulo: '10 perguntas clássicas de entrevista e como respondê-las',
-        descricao: 'Prepare-se para as perguntas mais frequentes nas entrevistas e se destaque na seleção.',
-        categoria: 'Entrevistas',
-        icone: '🎯',
-        cor: 'cat-laranja',
+        titulo: 'Dicas para um curriculo melhor',
+        descricao: 'Descubra dicas essenciais para criar um currículo claro, organizado e profissional. Aprenda a destacar suas habilidades e experiências para aumentar suas chances no mercado de trabalho.',
+        categoria: 'Dicas',
+        icone: '🗣️',
+        cor: 'cat-rosa',
         destaque: true,
-        dataPublicacao: '2024-12-10',
-        tempoLeitura: '8 min',
-        videoId: 'HG68Ymazo18',
+        dataPublicacao: '2026-04-13',
+        tempoLeitura: '2 min',
         conteudo: `
-          <p>A maioria das entrevistas de emprego seguem um roteiro previsível. Ao preparar respostas claras para as perguntas mais comuns, você entra na sala com mais confiança e naturalidade.</p>
-
-          <h2>As 10 perguntas mais frequentes</h2>
-
-          <h3>1. "Fale um pouco sobre você"</h3>
-          <p>Esta não é uma autobiografia — é seu pitch profissional. Mencione formação, interesses ligados à vaga e o que você busca profissionalmente. Seja breve (1–2 minutos).</p>
-
-          <h3>2. "Quais são seus pontos fortes?"</h3>
-          <p>Escolha 2–3 qualidades diretamente relacionadas à vaga e dê exemplos concretos de cada uma.</p>
-
-          <h3>3. "Qual é o seu maior ponto fraco?"</h3>
-          <p>Seja honesto, mas mostre que você está trabalhando para melhorar. Ex.: "Costumava ter dificuldade com prazos, então comecei a usar lista de tarefas e melhorei muito."</p>
-
-          <h3>4. "Por que quer trabalhar aqui?"</h3>
-          <p>Pesquise a empresa antes! Mencione valores, projetos ou produtos que você admira. Demonstra interesse genuíno.</p>
-
-          <h3>5. "Onde você se vê em 5 anos?"</h3>
-          <p>Mostre ambição realista e alinhada à área. Não precisa ter a resposta exata — demonstre desejo de crescer.</p>
-
-          <div class="destaque-box"><p>🎯 <strong>Técnica STAR:</strong> responda perguntas comportamentais descrevendo a <strong>S</strong>ituação, a <strong>T</strong>arefa, a <strong>A</strong>ção que você tomou e o <strong>R</strong>esultado obtido.</p></div>
-
-          <h3>6. "Tem experiência com...?"</h3>
-          <p>Se não tem, seja honesto e mostre disposição para aprender. Lembre-se: empresas que contratam jovens esperam curva de aprendizado.</p>
-
-          <h3>7. "Por que deixou o emprego anterior?" (se aplicável)</h3>
-          <p>Nunca fale mal de empregadores anteriores. Foque no que você busca, não no que fugia.</p>
-
-          <h3>8. "Qual sua pretensão salarial?"</h3>
-          <p>Pesquise a faixa do mercado antes. Você pode responder com uma faixa ou dizer que está aberto a negociar conforme os benefícios.</p>
-
-          <h3>9. "Tem alguma dúvida para nós?"</h3>
-          <p>SEMPRE tenha perguntas! Demonstra interesse. Pergunte sobre cultura, equipe, próximos passos.</p>
-
-          <h3>10. "Por que devemos te contratar?"</h3>
-          <p>Conecte suas habilidades e motivação diretamente às necessidades da vaga. Este é seu momento de brilhar!</p>
+          <img src="assets/images/SlideVivian1.png" alt="DicasVivian1" style="width:100%; border-radius:10px; margin:20px 0;">
         `
       },
       {

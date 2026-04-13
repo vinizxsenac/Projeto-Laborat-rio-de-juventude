@@ -1,1 +1,0 @@
-# Projeto-Laborat-rio-de-juventude
