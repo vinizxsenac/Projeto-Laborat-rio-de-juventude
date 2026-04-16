@@ -184,7 +184,7 @@ const DB = {
             <img src="assets/images/Slidekalebe2.jpg">
           </div>
           <div class="slide-kalebe3">
-            <a href="https://ocurriculo.com.br/blog/segundo-estudos-aparencia-pode-impactar-entrevista-de-emprego" target="_blank" >
+            <a href="https://ocurriculo.com.br/blog/segundo-estudos-aparencia-pode-impactar-entrevista-de-emprego" target="_blank">
             <img src="assets/images/Slidekalebe3.jpg">
           </div>
         `
