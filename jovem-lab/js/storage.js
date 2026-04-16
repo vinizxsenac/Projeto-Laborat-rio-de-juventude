@@ -141,14 +141,15 @@ const DB = {
         cor: 'cat-azul',
         destaque: false,
         dataPublicacao: '2026-04-13',
-        tempoLeitura: '3 min',
+        tempoLeitura: '5 min',
         conteudo: `
-          <img src="assets/images/SlideArnoldeAnaclara1.png" alt="Dicas1" style="width:100%; border-radius:10px; margin:20px 0;">
-          <img src="assets/images/SlideArnoldeAnaclara2.png" alt="Dicas2" style="width:100%; border-radius:10px; margin:20px 0;">
+        <div class="slide-arnold">  
+          <a href="https://www.linkedin.com/pulse/como-adotar-um-comportamento-%C3%A9tico-trabalho-veja-11-dicas-kiko-campos/" target="_blank">
+            <img src="assets/images/slidearnoldeanaclara.png">
+        </div>
         `
       },
 
-      // ---- DICAS PARA ENTREVISTAS ---------------------------
       {
         id: 3,
         titulo: 'Dicas para um curriculo melhor',
@@ -165,44 +166,30 @@ const DB = {
       },
       {
         id: 4,
-        titulo: 'Como se vestir para uma entrevista de emprego',
-        descricao: 'A primeira impressão conta muito. Saiba o que usar em cada tipo de processo seletivo.',
+        titulo: 'Comportamento em uma entrevista de emprego',
+        descricao: 'Saiba como se comportar em uma entrevista de emprego e causar uma boa impressão. Aprenda dicas essenciais sobre postura, comunicação e atitudes que podem aumentar suas chances de ser contratado.',
         categoria: 'Entrevistas',
         icone: '👔',
         cor: 'cat-laranja',
         destaque: false,
         dataPublicacao: '2024-12-12',
         tempoLeitura: '4 min',
-        videoId: '5MgBikgcWnY',
         conteudo: `
-          <p>A roupa que você escolhe para uma entrevista comunica muito antes mesmo de você dizer uma palavra. Não se trata de gastar muito, mas de escolher com inteligência.</p>
-
-          <h2>Leia a cultura da empresa</h2>
-          <p>Cada empresa tem um perfil diferente:</p>
-          <ul>
-            <li><strong>Corporativo / banco / jurídico:</strong> social clássico — camisa, calça social, sapato</li>
-            <li><strong>Startup / tech:</strong> smart casual — calça jeans sem rasgo, camisa polo ou camisa social sem gravata</li>
-            <li><strong>Varejo / atendimento:</strong> limpo e arrumado — roupas simples mas bem cuidadas</li>
-          </ul>
-
-          <div class="destaque-box"><p>👁️ Uma boa regra: vista-se <strong>um nível acima</strong> do que você imagina ser o dia a dia da empresa. Melhor pecar pelo excesso do que pelo descuido.</p></div>
-
-          <h2>Regras gerais</h2>
-          <ul>
-            <li>Roupa limpa, passada e sem manchas</li>
-            <li>Evite perfumes fortes</li>
-            <li>Cabelo arrumado</li>
-            <li>Unhas limpas</li>
-            <li>Menos é mais em acessórios</li>
-            <li>Sapatos limpos e conservados</li>
-          </ul>
-
-          <h2>Entrevista online: também importa!</h2>
-          <p>Mesmo em chamadas de vídeo, a aparência conta. Além da roupa, cuide do fundo da câmera — limpo, neutro — e da iluminação. Um fundo bagunçado ou iluminação ruim transmite descuido.</p>
+        <div class="slides-kalebe">  
+          <div class="slide-kalebe1">
+            <img src="assets/images/Slidekalebe1.jpg" alt="Dicas-kalebe">
+          </div>
+          <div class="slide-kalebe2">
+            <a href="https://www.dicasdemulher.com.br/entrevista-de-emprego/" target="_blank">
+            <img src="assets/images/Slidekalebe2.jpg">
+          </div>
+          <div class="slide-kalebe3">
+            <a href="https://ocurriculo.com.br/blog/segundo-estudos-aparencia-pode-impactar-entrevista-de-emprego" target="_blank" >
+            <img src="assets/images/Slidekalebe3.jpg">
+          </div>
         `
       },
 
-      // ---- PRIMEIRO EMPREGO --------------------------------
       {
         id: 5,
         titulo: 'Seus direitos no primeiro emprego: o que saber',

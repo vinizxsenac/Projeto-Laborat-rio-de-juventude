@@ -358,3 +358,25 @@ function _setText(id, texto) {
   const el = document.getElementById(id);
   if (el) el.textContent = texto;
 }
+
+// ============================================================
+// SLIDES MÚLTIPLOS
+// ============================================================
+document.addEventListener('DOMContentLoaded', () => {
+
+  document.querySelectorAll('.slider-artigo').forEach(slider => {
+    const slides = slider.querySelectorAll('.slide');
+    let index = 0;
+
+    slides.forEach((slide, i) => {
+      slide.style.display = i === 0 ? 'block' : 'none';
+    });
+
+    setInterval(() => {
+      slides[index].style.display = 'none';
+      index = (index + 1) % slides.length;
+      slides[index].style.display = 'block';
+    }, 3000);
+  });
+
+});
