@@ -449,6 +449,20 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .cat-rosa .card-thumb {
   background: linear-gradient(180deg, #fbcfe8, #f9a8d4);
 }
+.cat-dicas .card-thumb {
+  background: linear-gradient(180deg, #fde68a, #f59e0b);
+}
+
+.cat-curriculo .card-thumb {
+  background: linear-gradient(180deg, #bfdbfe, #3b82f6);
+}
+
+.cat-entrevista .card-thumb {
+  background: linear-gradient(180deg, #fbcfe8, #ec4899);
+}
+.cat-primeiro-emprego .card-thumb {
+  background: linear-gradient(135deg, #bbf7d0, #60a5fa);
+}w
 .card-thumb img {
   width: 100%; height: 100%;
   object-fit: cover;
@@ -1118,4 +1132,91 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: block;
   margin: 20px auto;
   border-radius: 10px;
+}
+.slides-kalebe {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.slides-kalebe div {
+  overflow: hidden; /* evita a imagem "vazar" */
+  border-radius: 12px;
+}
+
+.slides-kalebe img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+/* AQUI ESTÁ O SCALE 🔥 */
+.slides-kalebe img:hover {
+  transform: scale(0.9);
+}
+.slides-kalebe img:hover {
+  transform: scale(0.9);
+  filter: brightness(0.9);
+}
+.slide-lucas {
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slide-lucas img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+/* efeito ao passar o mouse */
+.slide-lucas img:hover {
+  transform: scale(0.9);
+}
+.slide-arnold {
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slide-arnold img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+/* efeito ao passar o mouse */
+.slide-arnold img:hover {
+  transform: scale(0.9);
+}
+.slide-vivian {
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slide-vivian img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+/* efeito ao passar o mouse */
+.slide-vivian img:hover {
+  transform: scale(0.9);
+}
+.slide-vinicius {
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.slide-vinicius img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+/* efeito ao passar o mouse */
+.slide-vinicius img:hover {
+  transform: scale(0.9);
 }

@@ -109,12 +109,13 @@ const DB = {
         titulo: 'Mentir no Curriculo vale a pena?',
         descricao: 'Há casos em que mentir no currículo é crime, mas não é a regra.',
         categoria: 'Curriculo',
-        icone: '📄',
-        cor: 'cat-azul',
+        icone: '📋🎯',
+        cor: 'cat-curriculo',
         destaque: true,
         dataPublicacao: '2026-04-13',
         tempoLeitura: '7 min',
         conteudo: `
+        <div class="slide-lucas">  
           <p>"Mentir no currículo pode parecer uma saída rápida, mas os riscos são altos. Entenda por que a honestidade é sempre a melhor estratégia e como valorizar suas habilidades sem precisar inventar experiências."</p>
 
           <h3>Porque mentir no curriculo pode ser prejudicial<\h3>
@@ -130,6 +131,7 @@ const DB = {
           <h2>E se eu conseguir o emprego?</h2>
           <p>Outro ponto relevante é o impacto interno dessa prática. Sustentar uma mentira exige esforço constante: a pessoa precisa lembrar do que disse, evitar contradições e, muitas vezes, lidar com tarefas para as quais não está preparada. Isso gera ansiedade, insegurança e estresse, prejudicando o desempenho e o bem-estar no ambiente de trabalho. Em contraste, a honestidade permite que o profissional atue com mais confiança, reconhecendo suas limitações e buscando aprendizado real.</p>
           <img src="assets/images/slideLucas.jpg" alt="curriculo" style="width:100%; border-radius:10px; margin:20px 0;">
+        </div>  
           `
       },
       {
@@ -137,8 +139,8 @@ const DB = {
         titulo: 'Dicas de Ética e conduta no mundo do trabalho',
         descricao: "Entenda a importância da ética e da boa conduta no ambiente de trabalho. Saiba como atitudes profissionais, respeito e responsabilidade podem fortalecer sua imagem e abrir portas na sua carreira.",
         categoria: 'Dicas',
-        icone: '📄',
-        cor: 'cat-azul',
+        icone: '🧠⚖️',
+        cor: 'cat-dicas',
         destaque: false,
         dataPublicacao: '2026-04-13',
         tempoLeitura: '5 min',
@@ -154,25 +156,27 @@ const DB = {
         id: 3,
         titulo: 'Dicas para um curriculo melhor',
         descricao: 'Descubra dicas essenciais para criar um currículo claro, organizado e profissional. Aprenda a destacar suas habilidades e experiências para aumentar suas chances no mercado de trabalho.',
-        categoria: 'Dicas',
-        icone: '🗣️',
-        cor: 'cat-rosa',
+        categoria: 'Curriculo',
+        icone: '📄🚀',
+        cor: 'cat-curriculo',
         destaque: true,
         dataPublicacao: '2026-04-13',
         tempoLeitura: '2 min',
         conteudo: `
+        <div class="slide-vivian">  
           <img src="assets/images/SlideVivian1.png" alt="DicasVivian1" style="width:100%; border-radius:10px; margin:20px 0;">
-        `
+        </div>
+          `
       },
       {
         id: 4,
         titulo: 'Comportamento em uma entrevista de emprego',
         descricao: 'Saiba como se comportar em uma entrevista de emprego e causar uma boa impressão. Aprenda dicas essenciais sobre postura, comunicação e atitudes que podem aumentar suas chances de ser contratado.',
         categoria: 'Entrevistas',
-        icone: '👔',
-        cor: 'cat-laranja',
+        icone: '🗣️👔',
+        cor: 'cat-entrevista',
         destaque: false,
-        dataPublicacao: '2024-12-12',
+        dataPublicacao: '2026-04-16',
         tempoLeitura: '4 min',
         conteudo: `
         <div class="slides-kalebe">  
@@ -182,98 +186,76 @@ const DB = {
           <div class="slide-kalebe2">
             <a href="https://www.dicasdemulher.com.br/entrevista-de-emprego/" target="_blank">
             <img src="assets/images/Slidekalebe2.jpg">
-          </div>
+            </a>          
+            </div>
           <div class="slide-kalebe3">
             <a href="https://ocurriculo.com.br/blog/segundo-estudos-aparencia-pode-impactar-entrevista-de-emprego" target="_blank">
             <img src="assets/images/Slidekalebe3.jpg">
-          </div>
+            </a>
+        </div>
         `
       },
 
       {
         id: 5,
-        titulo: 'Seus direitos no primeiro emprego: o que saber',
-        descricao: 'Conheça a CLT, carteira assinada, FGTS e tudo que você precisa saber antes de assinar.',
-        categoria: 'Primeiro Emprego',
-        icone: '⚖️',
-        cor: 'cat-verde',
+        titulo: 'Como ter controle emocional no trabalho',
+        descricao: 'Controlar as emoções no trabalho é essencial para o sucesso. Veja como manter a calma, evitar atitudes impulsivas e se destacar com maturidade e inteligência emocional.',
+        categoria: 'Dicas',
+        icone: '🧘💼',
+        cor: 'cat-dicas',
         destaque: true,
-        dataPublicacao: '2024-12-15',
-        tempoLeitura: '6 min',
-        videoId: 'lJIrF4YjHfQ',
+        dataPublicacao: '2026-04-17',
+        tempoLeitura: '3 min',
         conteudo: `
-          <p>Antes de assinar qualquer contrato, conhecer seus direitos trabalhistas é fundamental. Muitos jovens entram no mercado sem saber o básico — e acabam aceitando condições desvantajosas sem perceber.</p>
-
-          <h2>Tipos de contrato de trabalho</h2>
-          <ul>
-            <li><strong>CLT (carteira assinada):</strong> o mais completo, com todos os direitos previstos em lei</li>
-            <li><strong>Estágio:</strong> regido pela Lei nº 11.788/2008 — bolsa, não salário; direito a recesso e seguro</li>
-            <li><strong>Jovem Aprendiz:</strong> para jovens de 14 a 24 anos, com carteira assinada e jornada reduzida</li>
-            <li><strong>PJ (Pessoa Jurídica):</strong> terceirizado, sem vínculo empregatício — atenção aos riscos</li>
-          </ul>
-
-          <h2>Direitos garantidos pela CLT</h2>
-          <ul>
-            <li>Salário mínimo (ou piso da categoria)</li>
-            <li>Carteira de Trabalho (CTPS) assinada</li>
-            <li>FGTS — 8% do salário depositado mensalmente</li>
-            <li>13º salário</li>
-            <li>Férias remuneradas (30 dias + ⅓ a mais)</li>
-            <li>Hora extra (mínimo 50% a mais)</li>
-            <li>Seguro desemprego (em casos de demissão sem justa causa)</li>
-            <li>INSS — garantia de aposentadoria futura</li>
-          </ul>
-
-          <div class="destaque-box"><p>⚠️ <strong>Atenção:</strong> a carteira de trabalho deve ser assinada no primeiro dia de trabalho ou antes. Trabalhar "na experiência" sem registro é ilegal e você pode buscar seus direitos na Justiça do Trabalho.</p></div>
-
-          <h2>Jovem Aprendiz: vale a pena?</h2>
-          <p>O programa Jovem Aprendiz é uma excelente porta de entrada. Você trabalha, aprende, tem carteira assinada e ainda faz cursos profissionalizantes. Muitas empresas efetivam seus aprendizes ao final do contrato.</p>
-        `
+        <div class="slide-vinicius"  
+          <a href="https://produtividadeemocional.com.br/controle-emocional-no-trabalho/" target="_blank">
+          <img src="assets/images/Slideviniciusg.png">
+          </a>
+        </div>
+          `
       },
       {
         id: 6,
-        titulo: 'Como se comportar nos primeiros dias de trabalho',
+        titulo: 'Como encontrar o primeiro emprego',
         descricao: 'Impressões iniciais são duradouras. Veja como causar um ótimo impacto desde o começo.',
-        categoria: 'Primeiro Emprego',
-        icone: '🚀',
-        cor: 'cat-verde',
+        categoria: 'Dicas',
+        icone: '🚀💼',
+        cor: 'cat-primeiro-emprego',
         destaque: false,
-        dataPublicacao: '2024-12-18',
-        tempoLeitura: '5 min',
-        videoId: 'FEGu5EuD4JM',
+        dataPublicacao: '2026-04-17',
+        tempoLeitura: '4 min',
         conteudo: `
-          <p>Os primeiros dias em um novo emprego são decisivos. As pessoas ao redor estão formando uma opinião sobre você — e você está formando uma sobre elas. Aqui estão atitudes que fazem toda a diferença.</p>
-
-          <h2>Antes do primeiro dia</h2>
-          <ul>
-            <li>Confirme horário, local e o que deve levar</li>
-            <li>Pesquise sobre a empresa, seus produtos e cultura</li>
-            <li>Planeje sua rota com antecedência (e saia mais cedo!)</li>
-            <li>Durma bem na véspera</li>
-          </ul>
-
-          <h2>Comportamentos que constroem reputação positiva</h2>
-          <ul>
-            <li>Chegue sempre no horário — ou antes</li>
-            <li>Ouça mais do que fala nos primeiros dias</li>
-            <li>Anote tudo que aprender (não confie só na memória)</li>
-            <li>Pergunte quando tiver dúvida — é esperado de quem está começando</li>
-            <li>Trate todos com o mesmo respeito — da faxineira ao diretor</li>
-            <li>Evite usar o celular pessoal em excesso</li>
-          </ul>
-
-          <div class="destaque-box"><p>🤝 <strong>Relacionamentos importam:</strong> fazer boas amizades no trabalho torna o dia a dia mais leve e abre portas para o futuro. Seja genuíno e gentil.</p></div>
-
-          <h2>Erros comuns a evitar</h2>
-          <ul>
-            <li>Fingir que sabe o que não sabe</li>
-            <li>Falar mal de colegas ou chefes</li>
-            <li>Atrasar entregas ou tarefas sem avisar</li>
-            <li>Ignorar feedbacks, mesmo os críticos</li>
-            <li>Reclamar de tudo nos primeiros dias</li>
-          </ul>
+        <div class="slide-ytallo">  
+          <img src="assets/images/Slidemariaclaraytallo.png">
+        </div>        
+          `
+      
+      },
+      {
+        id: 7,
+        titulo: 'Quais cursos são mais valorizados pelas empresas',
+        descricao: 'Descubra quais cursos são mais valorizados pelas empresas e aumente suas chances no mercado de trabalho. Conheça áreas em alta e veja como investir na sua qualificação pode fazer a diferença na sua carreira.',
+        categoria: 'Curriculo',
+        icone: '🗣️👔',
+        cor: 'cat-curriculo',
+        destaque: false,
+        dataPublicacao: '2026-04-17',
+        tempoLeitura: '4 min',
+        conteudo: `
+        <div class="slides-davi">  
+          <div class="slide-davi1">
+            <img src="assets/images/Slidekalebe1.jpg" alt="curriculo-davi">
+          </div>
+          <div class="slide-davi2">
+            <a href="https://www.dicasdemulher.com.br/entrevista-de-emprego/" target="_blank">
+            <img src="assets/images/Slidekalebe2.jpg">
+          </div>
+          <div class="slide-davi3">
+            <a href="https://ocurriculo.com.br/blog/segundo-estudos-aparencia-pode-impactar-entrevista-de-emprego" target="_blank">
+            <img src="assets/images/Slidekalebe3.jpg">
+          </div>
         `
-      }
+      },
     ];
   }
 };
