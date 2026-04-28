@@ -9,7 +9,7 @@ jovem-lab/
 │
 ├── index.html          ← Página inicial (Home)
 ├── conteudos.html      ← Listagem de todos os artigos
-├── detalhe.html        ← Página de artigo completo (carrega por ?id=N)
+├── detalhe.html        ← Página de artigo completo
 ├── cadastro.html       ← Formulário de cadastro de usuário
 │
 ├── css/
