@@ -228,6 +228,11 @@ const DB = {
         conteudo: `
         <div class="slide-ytallo">  
           <img src="jovem-lab/assets/images/Slidemariaclaraytallo.png">
+          <a href="https://br.linkedin.com/" class="btn-link link1">Linkedin</a>
+          <a href="https://login.infojobs.com.br/" class="btn-link link2">Info Jobs</a>
+          <a href="https://www.catho.com.br/" class="btn-link link3">Catho</a>
+          <a href="https://login.gupy.io/candidates/signin" class="btn-link link4">Gupy</a>
+          <a href="https://br.indeed.com/" class="btn-link link5">Indeed</a>
         </div>        
           `
       
@@ -294,21 +299,139 @@ const DB = {
       },
       {
         id: 8,
-        titulo: 'Como encontrar o primeiro emprego',
+        titulo: 'Quiz sobre Empregabilidade',
         descricao: 'Teste se você está pronto para conquistar seu primeiro emprego e descubra o que o mercado realmente espera de você. Identifique seus pontos fortes, corrija falhas e saia na frente dos concorrentes.',
-        categoria: 'Primeiro Emprego',
+        categoria: 'Dicas',
         icone: '🧑‍💻 📊',
-        cor: 'cat-primeiro-emprego',
+        cor: 'cat-dicas',
         destaque: false,
         dataPublicacao: '2026-04-28',
         tempoLeitura: '4 min',
         conteudo: `
         <div class="slide-quiz">
-          <a href="https://forms.office.com/pages/responsepage.aspx?id=rsrMhaDujEeAYmBTbjdO9VtvCytNfRRDoYE1D8B8c-5UQlBRUDJWVlRNN0FOQkNZVlRRMVlNRzc2WC4u&origin=lprLink&route=shorturl" target="_blank">
+          <a href="https://forms.office.com/r/25n98XLjz8?origin=lprLink" target="_blank">
           <img src="jovem-lab/assets/images/slidequiz.jpg">
         </div>    
         `
-      
+      },
+      {
+      id: 9,
+        titulo: 'O que fazer na entrevista de emprego?',
+        descricao: 'Saiba como se preparar para uma entrevista de emprego, causar uma boa impressão e responder com confiança. Descubra dicas essenciais de comportamento, postura, comunicação e apresentação para aumentar suas chances de conquistar a vaga.',
+        categoria: 'Entrevistas',
+        icone: '👔🎯',
+        cor: 'cat-entrevista',
+        destaque: false,
+        dataPublicacao: '2026-04-28',
+        tempoLeitura: '4 min',
+        conteudo: `
+          <div class="slide-amanda1">
+            <img src="jovem-lab/assets/images/amanda1.jpg">
+          </div>
+          <div classe="slide-amanda2">
+            <img src="jovem-lab/assets/images/amanda2.jpg">
+          </div>
+          <div classe="slide-amanda3">
+            <img src="jovem-lab/assets/images/amanda3.jpg">
+          </div>
+          <div classe="slide-amanda4">
+            <img src="jovem-lab/assets/images/amanda4.jpg">
+          </div>
+          <div classe="slide-amanda5">
+            <img src="jovem-lab/assets/images/amanda5.jpg">
+          </div>
+          <div classe="slide-amanda6">
+            <img src="jovem-lab/assets/images/amanda6.jpg">
+          </div>
+          <div classe="slide-amanda7">
+            <img src="jovem-lab/assets/images/amanda7.jpg">
+          </div>
+          <div classe="slide-amanda8">
+            <img src="jovem-lab/assets/images/amanda8.jpg">
+          </div>
+          <div classe="slide-amanda9">
+            <img src="jovem-lab/assets/images/amanda9.jpg">
+          </div>
+          <div classe="slide-amanda10">
+            <img src="jovem-lab/assets/images/amanda10.jpg">
+          </div>
+          <div classe="slide-amanda11">
+            <img src="jovem-lab/assets/images/amanda11.jpg">
+          </div>
+          <div classe="slide-amanda12">
+            <img src="jovem-lab/assets/images/amanda12.jpg">
+          </div>
+          <div classe="slide-amanda13">
+            <img src="jovem-lab/assets/images/amanda13.jpg">
+          </div>
+          <div classe="slide-amanda14">
+            <img src="jovem-lab/assets/images/amanda14.jpg">
+          </div>
+          <div classe="slide-amanda15">
+            <img src="jovem-lab/assets/images/amanda15.jpg">
+          </div>
+          <div classe="slide-amanda16">
+            <img src="jovem-lab/assets/images/amanda16.jpg">
+          </div>
+          <div classe="slide-amanda17">
+            <img src="jovem-lab/assets/images/amanda17.jpg">
+          </div>
+        `
+      },
+      {
+        id: 8,
+        titulo: '6 Profissões em Alta',
+        descricao: 'Descubra quais são os 6 empregos em alta no mercado de trabalho e conheça as profissões que estão ganhando destaque em áreas como tecnologia, saúde, finanças e engenharia. Veja tendências, oportunidades e como se preparar para conquistar espaço nas carreiras mais promissoras de 2026.',
+        categoria: 'Dicas',
+        icone: '💼🏆',
+        cor: 'cat-dicas',
+        destaque: false,
+        dataPublicacao: '2026-04-28',
+        tempoLeitura: '4 min',
+        conteudo: `
+        <div class="slideisaac">
+          <a href="https://revistadoestudante.com.br/as-10-carreiras-mais-promissoras-para-os-jovens-de-hoje/" target="_blank">
+          <img src="jovem-lab/assets/images/slideisaac.jpg">
+        </div>
+        `
+      },
+      {
+        id: 9,
+        titulo: 'Cursos Gratuitos para alavancar sua carreira',
+        descricao: 'Descubra quais são os 6 empregos em alta no mercado de trabalho e conheça as profissões que estão ganhando destaque em áreas como tecnologia, saúde, finanças e engenharia. Veja tendências, oportunidades e como se preparar para conquistar espaço nas carreiras mais promissoras de 2026.',
+        categoria: 'Dicas',
+        icone: '🎓💡',
+        cor: 'cat-dicas',
+        destaque: false,
+        dataPublicacao: '2026-04-28',
+        tempoLeitura: '4 min',
+        conteudo: `
+        <div class="slide-kamilly">
+          <div class="slide-kamilly1">
+            <img src="jovem-lab/assets/images/kamily1.jpg">
+          </div>
+           <div class="slide-kamilly2">
+            <img src="jovem-lab/assets/images/kamily2.jpg">
+          </div>
+           <div class="slide-kamilly3">
+            <img src="jovem-lab/assets/images/kamily3.jpg">
+          </div>
+           <div class="slide-kamilly4">
+            <img src="jovem-lab/assets/images/kamily4.jpg">
+          </div>
+           <div class="slide-kamilly5">
+            <img src="jovem-lab/assets/images/kamily5.jpg">
+          </div>
+           <div class="slide-kamilly6">
+            <img src="jovem-lab/assets/images/kamily6.jpg">
+          </div>
+           <div class="slide-kamilly7">
+            <img src="jovem-lab/assets/images/kamily7.jpg">
+          </div>
+           <div class="slide-kamilly8">
+            <img src="jovem-lab/assets/images/kamily8.jpg">
+          </div>
+        `
       },
     ];
   }
