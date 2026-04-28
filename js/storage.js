@@ -130,7 +130,7 @@ const DB = {
         
           <h2>E se eu conseguir o emprego?</h2>
           <p>Outro ponto relevante é o impacto interno dessa prática. Sustentar uma mentira exige esforço constante: a pessoa precisa lembrar do que disse, evitar contradições e, muitas vezes, lidar com tarefas para as quais não está preparada. Isso gera ansiedade, insegurança e estresse, prejudicando o desempenho e o bem-estar no ambiente de trabalho. Em contraste, a honestidade permite que o profissional atue com mais confiança, reconhecendo suas limitações e buscando aprendizado real.</p>
-          <img src="assets/images/slideLucas.jpg" alt="curriculo" style="width:100%; border-radius:10px; margin:20px 0;">
+          <img src="jovem-lab/assets/images/slideLucas.jpg" alt="curriculo" style="width:100%; border-radius:10px; margin:20px 0;">
         </div>  
           `
       },
@@ -147,7 +147,7 @@ const DB = {
         conteudo: `
         <div class="slide-arnold">  
           <a href="https://www.linkedin.com/pulse/como-adotar-um-comportamento-%C3%A9tico-trabalho-veja-11-dicas-kiko-campos/" target="_blank">
-            <img src="assets/images/slidearnoldeanaclara.png">
+            <img src="jovem-lab/assets/images/slidearnoldeanaclara.png">
         </div>
         `
       },
@@ -164,7 +164,7 @@ const DB = {
         tempoLeitura: '2 min',
         conteudo: `
         <div class="slide-vivian">  
-          <img src="assets/images/SlideVivian1.png" alt="DicasVivian1" style="width:100%; border-radius:10px; margin:20px 0;">
+          <img src="jovem-lab/assets/images/SlideVivian1.png" alt="DicasVivian1" style="width:100%; border-radius:10px; margin:20px 0;">
         </div>
           `
       },
@@ -181,16 +181,16 @@ const DB = {
         conteudo: `
         <div class="slides-kalebe">  
           <div class="slide-kalebe1">
-            <img src="assets/images/Slidekalebe1.jpg" alt="Dicas-kalebe">
+            <img src="jovem-lab/assets/images/Slidekalebe1.jpg" alt="Dicas-kalebe">
           </div>
           <div class="slide-kalebe2">
             <a href="https://www.dicasdemulher.com.br/entrevista-de-emprego/" target="_blank">
-            <img src="assets/images/Slidekalebe2.jpg">
+            <img src="jovem-lab/assets/images/Slidekalebe2.jpg">
             </a>          
             </div>
           <div class="slide-kalebe3">
             <a href="https://ocurriculo.com.br/blog/segundo-estudos-aparencia-pode-impactar-entrevista-de-emprego" target="_blank">
-            <img src="assets/images/Slidekalebe3.jpg">
+            <img src="jovem-lab/assets/images/Slidekalebe3.jpg">
             </a>
         </div>
         `
@@ -209,7 +209,7 @@ const DB = {
         conteudo: `
         <div class="slide-vinicius"  
           <a href="https://produtividadeemocional.com.br/controle-emocional-no-trabalho/" target="_blank">
-          <img src="assets/images/Slideviniciusg.png">
+          <img src="jovem-lab/assets/images/Slideviniciusg.png">
           </a>
         </div>
           `
@@ -226,7 +226,7 @@ const DB = {
         tempoLeitura: '4 min',
         conteudo: `
         <div class="slide-ytallo">  
-          <img src="assets/images/Slidemariaclaraytallo.png">
+          <img src="jovem-lab/assets/images/Slidemariaclaraytallo.png">
         </div>        
           `
       
@@ -239,22 +239,75 @@ const DB = {
         icone: '🗣️👔',
         cor: 'cat-curriculo',
         destaque: false,
-        dataPublicacao: '2026-04-17',
-        tempoLeitura: '4 min',
+        dataPublicacao: '2026-04-28',
+        tempoLeitura: '7 min',
         conteudo: `
         <div class="slides-davi">  
           <div class="slide-davi1">
-            <img src="assets/images/Slidekalebe1.jpg" alt="curriculo-davi">
+            <img src="jovem-lab/assets/images/davi1.png" alt="curriculo-davi">
           </div>
           <div class="slide-davi2">
-            <a href="https://www.dicasdemulher.com.br/entrevista-de-emprego/" target="_blank">
-            <img src="assets/images/Slidekalebe2.jpg">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi2.png">
           </div>
           <div class="slide-davi3">
-            <a href="https://ocurriculo.com.br/blog/segundo-estudos-aparencia-pode-impactar-entrevista-de-emprego" target="_blank">
-            <img src="assets/images/Slidekalebe3.jpg">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi3.png">
+          </div>
+          <div class="slide-davi4">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi4.png">
+          </div>
+          <div class="slide-davi5">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi5.png">
+          </div>
+          <div class="slide-davi6">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi6.png">
+          </div>
+          <div class="slide-davi7">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi7.png">
+          </div>
+          <div class="slide-davi8">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi8.png">
+          </div>
+          <div class="slide-davi9">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi9.png">
+          </div>
+          <div class="slide-davi10">
+            <a href="https://querobolsa.com.br/revista/7-cursos-que-as-empresas-mais-pedem" target="_blank">
+            <img src="jovem-lab/assets/images/davi10.png">
+          </div>
+          <div class="slide-davi11">
+            <img src="jovem-lab/assets/images/davi11.png">
+          </div>
+          <div class="slide-davi12">
+            <a href="https://www.df.senac.br" target="_blank">
+            <img src="jovem-lab/assets/images/davi12.png">
           </div>
         `
+      },
+      {
+        id: 8,
+        titulo: 'Como encontrar o primeiro emprego',
+        descricao: 'Teste se você está pronto para conquistar seu primeiro emprego e descubra o que o mercado realmente espera de você. Identifique seus pontos fortes, corrija falhas e saia na frente dos concorrentes.',
+        categoria: 'Primeiro Emprego',
+        icone: '🧑‍💻 📊',
+        cor: 'cat-primeiro-emprego',
+        destaque: false,
+        dataPublicacao: '2026-04-28',
+        tempoLeitura: '4 min',
+        conteudo: `
+        <div class="slide-quiz">
+          <a href="https://forms.office.com/pages/responsepage.aspx?id=rsrMhaDujEeAYmBTbjdO9VtvCytNfRRDoYE1D8B8c-5UQlBRUDJWVlRNN0FOQkNZVlRRMVlNRzc2WC4u&origin=lprLink&route=shorturl" target="_blank">
+          <img src="jovem-lab/assets/images/slidequiz.jpg">
+        </div>    
+        `
+      
       },
     ];
   }
