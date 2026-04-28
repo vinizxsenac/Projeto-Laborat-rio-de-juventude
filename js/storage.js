@@ -130,7 +130,8 @@ const DB = {
         
           <h2>E se eu conseguir o emprego?</h2>
           <p>Outro ponto relevante é o impacto interno dessa prática. Sustentar uma mentira exige esforço constante: a pessoa precisa lembrar do que disse, evitar contradições e, muitas vezes, lidar com tarefas para as quais não está preparada. Isso gera ansiedade, insegurança e estresse, prejudicando o desempenho e o bem-estar no ambiente de trabalho. Em contraste, a honestidade permite que o profissional atue com mais confiança, reconhecendo suas limitações e buscando aprendizado real.</p>
-          <img src="jovem-lab/assets/images/slideLucas.jpg" alt="curriculo" style="width:100%; border-radius:10px; margin:20px 0;">
+          <a href="https://www.jusbrasil.com.br/artigos/mentir-no-curriculo-e-crime/869996185?msockid=1cd652b61db066c424a4458b19b06d3a" target="_blank">
+          <img src="jovem-lab/assets/images/slidelucas.png" alt="curriculo" style="width:100%; border-radius:10px; margin:20px 0;">
         </div>  
           `
       },
